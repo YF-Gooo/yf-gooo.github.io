@@ -6,18 +6,20 @@
     <description>Recent content in theme on YF-Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://yf-gooo.github.io/tags/theme/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://yf-gooo.github.io/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>hugo博客创建</title>
+      <link>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yf-gooo.github.io/posts/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content.</description>
+      <guid>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</guid>
+      <description>最终还是放弃了自建博客的想法，虽然的vue＋gin博客已经基本完工。但是考虑到
+ 1.服务器要花钱 2.别人写的主题的确比我好看 (..•˘_˘•..)  最终还是决定用hugo搭建一个免费博客。真香～～
+搭建流程 hugo new site hugo-blog cd hugo-blog hugo new about.md　//创建文章 cd themes //下载主题 git clone https://github.com/htr3n/hyde-hyde.git cd .. hugo server --theme=hyde-hyde --buildDrafts  部署 创建git仓库名字叫做yf-gooo.</description>
     </item>
     
   </channel>

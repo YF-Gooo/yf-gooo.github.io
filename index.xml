@@ -6,63 +6,36 @@
     <description>Recent content on YF-Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 12 Dec 2019 22:35:52 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://yf-gooo.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://yf-gooo.github.io/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>hugo博客创建</title>
+      <link>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yf-gooo.github.io/posts/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content.</description>
+      <guid>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</guid>
+      <description>最终还是放弃了自建博客的想法，虽然的vue＋gin博客已经基本完工。但是考虑到
+ 1.服务器要花钱 2.别人写的主题的确比我好看 (..•˘_˘•..)  最终还是决定用hugo搭建一个免费博客。真香～～
+搭建流程 hugo new site hugo-blog cd hugo-blog hugo new about.md　//创建文章 cd themes //下载主题 git clone https://github.com/htr3n/hyde-hyde.git cd .. hugo server --theme=hyde-hyde --buildDrafts  部署 创建git仓库名字叫做yf-gooo.</description>
     </item>
     
     <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://yf-gooo.github.io/posts/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      <title>About Me</title>
+      <link>https://yf-gooo.github.io/about/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yf-gooo.github.io/posts/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static.</description>
-    </item>
-    
-    <item>
-      <title>2</title>
-      <link>https://yf-gooo.github.io/posts/2/</link>
-      <pubDate>Thu, 12 Dec 2019 22:35:52 +0800</pubDate>
-      
-      <guid>https://yf-gooo.github.io/posts/2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>1</title>
-      <link>https://yf-gooo.github.io/posts/1/</link>
-      <pubDate>Thu, 12 Dec 2019 22:34:39 +0800</pubDate>
-      
-      <guid>https://yf-gooo.github.io/posts/1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DERA</title>
-      <link>https://yf-gooo.github.io/portfolio/dera/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://yf-gooo.github.io/portfolio/dera/</guid>
-      <description>This is a Java reference implementation of dynamic event-driven actors runtime aiming at providing adequate abstraction levels and mechanisms for modelling and developing (distributed) event-based systems. DERA leverages the intrinsic loose coupling of event-driven communication styles to support various kinds of run-time evolution and adaptation (i.</description>
-    </item>
-    
-    <item>
-      <title>hyde-hyde</title>
-      <link>https://yf-gooo.github.io/portfolio/hyde-hyde/</link>
-      <pubDate>Sat, 27 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://yf-gooo.github.io/portfolio/hyde-hyde/</guid>
-      <description>Hyde-hyde is a responsive Hugo theme inspired by @spf13&#39;s Hyde and its variant Nate Finch&#39;s blog. It was heavily restructured with modularised page layouts for easier maintenance and modification. Hyde-hyde offers awesome features such as nice colour tone, code highlighting, Font-Awesome 5&#39;s sidebar icons), a cool portfolio page, more choices for commenting (e.</description>
+      <guid>https://yf-gooo.github.io/about/</guid>
+      <description>来自江苏无锡，资深宅男，年龄25
+菜鸟数据科学家，人工智Z工程师 (ง •̀_•́)ง
+野生的程序猿，喜欢唱，跳，rap～music～～（//▽//）
+擅长写ugly前端的界面(•‾̑⌣‾̑•)✧˖°
+热衷于研究把自己绕晕的后端架构(..•˘_˘•..)
+最喜欢的动物是土拨鼠，啊&amp;mdash;&amp;ndash;ʕ•͡-•ʔ
+不堪入目的项目经历 (๑•́ ₃•̀๑) ,以后慢慢更新:
+ YF-Blog  Learn more and contribute on GitHub.</description>
     </item>
     
     <item>
@@ -72,36 +45,6 @@
       
       <guid>https://yf-gooo.github.io/portfolio/laramod/</guid>
       <description>LaraMod is another modularisation effort to systematically organising a Laravel based project. The idea stems from my struggle to structure a Laravel-based project so that I can work effectively on individual modules whilst keeping Laravel codebase intact as much as possible and also keeping the project&#39;s codebase separate from Laravel.</description>
-    </item>
-    
-    <item>
-      <title>About Hugo</title>
-      <link>https://yf-gooo.github.io/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://yf-gooo.github.io/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://yf-gooo.github.io/posts/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://yf-gooo.github.io/posts/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://yf-gooo.github.io/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://yf-gooo.github.io/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.</description>
     </item>
     
   </channel>

@@ -6,46 +6,20 @@
     <description>Recent content in Development on YF-Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://yf-gooo.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://yf-gooo.github.io/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>hugo博客创建</title>
+      <link>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yf-gooo.github.io/posts/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content.</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://yf-gooo.github.io/posts/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://yf-gooo.github.io/posts/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://yf-gooo.github.io/posts/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://yf-gooo.github.io/posts/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://yf-gooo.github.io/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://yf-gooo.github.io/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.</description>
+      <guid>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</guid>
+      <description>最终还是放弃了自建博客的想法，虽然的vue＋gin博客已经基本完工。但是考虑到
+ 1.服务器要花钱 2.别人写的主题的确比我好看 (..•˘_˘•..)  最终还是决定用hugo搭建一个免费博客。真香～～
+搭建流程 hugo new site hugo-blog cd hugo-blog hugo new about.md　//创建文章 cd themes //下载主题 git clone https://github.com/htr3n/hyde-hyde.git cd .. hugo server --theme=hyde-hyde --buildDrafts  部署 创建git仓库名字叫做yf-gooo.</description>
     </item>
     
   </channel>
