@@ -11,7 +11,7 @@
 <meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.61.0" />
+<meta name="generator" content="Hugo 0.68.3" />
 
     
     
@@ -151,7 +151,7 @@
     </div>
     
 <div class="copyright">
-  &copy; 2019 htr3n
+  &copy; 2021 htr3n
   
     <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
   
@@ -222,10 +222,10 @@
   <div class="post">
     <p>白瞟bert也有一年多了，都没有好好研究过transformer的具体结构，是时候仔细研究下了.<br>
 代码保存在 : <a href="https://github.com/YF-Gooo/DeepLearning-NLP/blob/master/transformer/transformer.py">https://github.com/YF-Gooo/DeepLearning-NLP/blob/master/transformer/transformer.py</a></p>
-<h4 id="heading">结构:</h4>
+<h4 id="结构">结构:</h4>
 <p><img src="/img/transformer/transformer.png" alt="transformer"></p>
-<h2 id="heading-1">流程:</h2>
-<h3 id="heading-2">数据:</h3>
+<h2 id="流程">流程:</h2>
+<h3 id="数据">数据:</h3>
 <pre><code>＃输入  
 sentences = ['ich mochte ein bier P', 
              'S i want a beer', 
@@ -235,7 +235,7 @@ enc_inputs＝tensor([[1, 2, 3, 4, 0]])
 dec_inputs＝tensor([[5, 1, 2, 3, 4]]) 
 target_batch＝tensor([[1, 2, 3, 4, 6]])
 </code></pre>
-<h3 id="heading-3">模型:</h3>
+<h3 id="模型">模型:</h3>
 <h5 id="transformer">Transformer:</h5>
 <pre><code>class Transformer(nn.Module):
     def __init__(self):
@@ -258,7 +258,7 @@ target_batch＝tensor([[1, 2, 3, 4, 6]])
 <pre><code>    dec_outputs, dec_self_attn = self.dec_self_attn(dec_inputs, dec_inputs, dec_inputs, dec_self_attn_mask)
     dec_outputs, dec_enc_attn = self.dec_enc_attn(dec_outputs, enc_outputs, enc_outputs, dec_enc_attn_mask)
 </code></pre>
-<h5 id="heading-4">第一句</h5>
+<h5 id="第一句">第一句</h5>
 <p>简单解释下，乍一看是在做dec_inputs的self attention,但因为引入了dec_self_attn_mask这个mask.
 其实是在合并单词含义，为一会的并行计算做准备．</p>
 <pre><code>dec_outputs的第一个元素包含dec_inputs第一个元素的信息  
@@ -267,11 +267,11 @@ dec_outputs的第二个元素包含dec_inputs前两个个元素的信息
 <p>这是符合逻辑的，因为我们一会是要用dec_outputs的第一个元素去预测我们第一个单词  .
 我们预测第一个单词的时候，是不知道后面的单词信息的，能用的只有我们输入的Ｓ.<br>
 再次强调，现在的dec_outputs的每个元素，是多个dec_inputs信息的结合体.</p>
-<h5 id="heading-5">第二句</h5>
+<h5 id="第二句">第二句</h5>
 <p>这一句就不是做self attention，做的是融合的attention,融合啥？<br>
 dec_outputs已经包含dec_inputs的信息了，但这不够，我们需要更多信息也就是来自enc_output的信息.<br>
 当把encode的信息融合进入dec_outputs以后我们就可以放心的去预测了.</p>
-<h3 id="heading-6">总结</h3>
+<h3 id="总结">总结</h3>
 <p>其实总体看下来transformer绝对不能说是什么特大创新．明显有coattention等更早的论文的影子．</p>
 
   </div>
@@ -284,6 +284,11 @@ dec_outputs已经包含dec_inputs的信息了，但这不够，我们需要更�
       <span class="navigation-tittle">Hugo博客搭建02</span>
     </a>
     
+    
+    <a href="/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA03/" class="navigation-next">
+      <span class="navigation-tittle">Hugo博客搭建03</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
     
 </div>
 

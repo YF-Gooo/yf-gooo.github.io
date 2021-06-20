@@ -11,7 +11,7 @@
 <meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.61.0" />
+<meta name="generator" content="Hugo 0.68.3" />
 
     
     
@@ -151,7 +151,7 @@
     </div>
     
 <div class="copyright">
-  &copy; 2019 htr3n
+  &copy; 2021 htr3n
   
     <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
   
@@ -226,7 +226,7 @@
 <li>2.别人写的主题的确比我好看 (..•˘_˘•..)</li>
 </ul>
 <p>最终还是决定用hugo搭建一个免费博客。真香～～</p>
-<h2 id="heading">搭建流程</h2>
+<h2 id="搭建流程">搭建流程</h2>
 <pre><code>hugo new site hugo-blog
 cd hugo-blog
 hugo new about.md　//创建文章
@@ -235,8 +235,8 @@ git clone https://github.com/htr3n/hyde-hyde.git
 cd ..
 hugo server --theme=hyde-hyde  --buildDrafts
 </code></pre>
-<h2 id="heading-1">部署</h2>
-<h4 id="gityf-gooogithubio">创建git仓库名字叫做yf-gooo.github.io</h4>
+<h2 id="部署">部署</h2>
+<h4 id="创建git仓库名字叫做yf-gooogithubio">创建git仓库名字叫做yf-gooo.github.io</h4>
 <pre><code>hugo --theme=hyde-hyde --baseUrl=&quot;https://yf-gooo.github.io/&quot; --buildDrafts
 cd public
 git init
@@ -245,7 +245,7 @@ git commit -m &quot;&quot;
 git remote add origin https://github.com/YF-Gooo/yf-gooo.github.io.git
 git push -u origin master
 </code></pre>
-<h2 id="heading-2">改进</h2>
+<h2 id="改进">改进</h2>
 <pre><code>考虑采用gitlab/cicd自动更新博客，写好markdown，提交自动触发网站更新流程(已完成)</code></pre>
 
   </div>

@@ -6,10 +6,19 @@
     <description>Recent content in html on YF-Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 13 Dec 2019 02:00:32 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jun 2021 02:00:32 +0800</lastBuildDate>
     
 	<atom:link href="https://yf-gooo.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo博客搭建03</title>
+      <link>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA03/</link>
+      <pubDate>Sun, 20 Jun 2021 02:00:32 +0800</pubDate>
+      
+      <guid>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA03/</guid>
+      <description>Gitlab CI/CD流程 测试 </description>
+    </item>
     
     <item>
       <title>Hugo博客搭建02</title>
